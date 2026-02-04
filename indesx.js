@@ -1,1 +1,2 @@
-console.log("learning git command");
+
+console.log("Hello how are you")
