@@ -5,6 +5,7 @@ const app = express();
 app.use(express.json());
 
 
+//routes handling
 app.get("/setCookie",(req,res)=>{
     res.cookie("token","abc123",{
         httpOnly:true,
